@@ -1,0 +1,39 @@
+.tittle{
+    margin: 0;
+    background-color:rgb(255,255,255);
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 4vw;
+    color: rgb(200, 0, 0);
+}
+.tittle2{
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background-color:rgb(255,255,255);
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2vw;
+    color: rgb(200, 0, 0);
+}
+
+.text{
+    margin:0%;
+    height: 70%;
+    padding-left: 27%;
+    padding-right: 27%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.7vw;
+    line-height: 1.6;
+}

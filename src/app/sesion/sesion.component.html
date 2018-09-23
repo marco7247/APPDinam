@@ -1,0 +1,23 @@
+<div class="content1">
+    <div class="content2">
+      
+      <div class="row">
+        <h1 class="tit"><b>Inicio de Sesión</b></h1>
+      </div>
+      <div class="row">
+        <input class="inputs" type="text" name="nombre" value="Usuario o código de empleado">
+        <br>
+      </div>
+      <div class="row">
+        <input class="inputs" type="text" name="pass" value="Contraseña">
+        <br><br>
+      </div>
+      <div class="row">
+        <input type="button" value="Ingresar" [routerLink]="[{ outlets: {sesion: ['siguiente'] } }]" routerLinkActive="active">
+      </div>
+      <div class="row">
+        <a class="tit2"><b>¿Olvidáste tu contraseña?</b></a>
+      </div>  
+      
+    </div>
+</div>

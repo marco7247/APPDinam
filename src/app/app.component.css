@@ -1,0 +1,27 @@
+.column {
+    float: left;
+}
+.col{
+    height: 100%;
+    margin-top: 0px;
+}
+
+.acciones {
+    width: 32.5%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    position:relative;
+}
+
+.sesion {
+    width: 67.5%;
+    height: 100%;
+    background-color: rgba(200, 0, 0, 0.4);
+    position:relative;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
